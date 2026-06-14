@@ -7,7 +7,9 @@ description: Organize, deduplicate, classify, and normalize a local Zotero libra
 
 ## Purpose
 
-Use this skill according to its frontmatter description.
+Use this skill to safely inspect and organize a local Zotero library, including
+collections, duplicate candidates, unfiled items, and force-control taxonomy
+maintenance. Treat direct `zotero.sqlite` edits as mutation-gated work.
 
 Keep this `SKILL.md` as a concise routing and execution entrypoint. Do not load
 long examples, command catalogs, detailed checklists, or edge-case policy until
@@ -19,9 +21,8 @@ the current task needs them.
 2. Bind the concrete target: source file, artifact, repo, device, document,
    dataset, or user-facing deliverable.
 3. Use the smallest relevant workflow from this entrypoint first.
-4. Load `references/entrypoint-details.md` when the task needs detailed
-   procedures, examples, command recipes, acceptance criteria, or one of the
-   detailed sections listed below.
+4. Before database mutation, taxonomy application, duplicate cleanup, or
+   protected-folder handling, read `references/entrypoint-details.md`.
 5. Preserve local owner boundaries: route to a narrower skill or repo-specific
    workflow when the detailed reference indicates a more specific owner.
 
