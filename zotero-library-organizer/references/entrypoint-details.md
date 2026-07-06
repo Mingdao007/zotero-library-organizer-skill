@@ -63,7 +63,8 @@ Use this skill when the user asks to:
 Route these requests to other workflows:
 
 - Zotero MCP transport/debugging only
-  Use `zotero-mcp-repair` instead.
+  Use active Zotero integration diagnostics; recover dormant repair playbooks
+  only by exact slash/name request.
 - generic literature review or paper explanation with no library edits
 
 ## Canonical Workflow
